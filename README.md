@@ -6,4 +6,4 @@
 -верстка [Flex-box](https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox)</br>
 <br />
 
-[Demo in CodeSandBox](https://codesandbox.io/s/6zx6l03ovn)
+[Demo in CodeSandBox](https://codesandbox.io/s/tic-dso5p)
