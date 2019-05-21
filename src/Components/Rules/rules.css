@@ -1,0 +1,23 @@
+.rulesContainer {
+    height: 120px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.rulesContainer > h2 {
+    font-size: 18px;
+    font-family: Verdana;
+    color: #676767;
+}
+.rulesContainer > p {
+    font-size: 12px;
+    font-family: Verdana;
+}
+.crosses {
+    color: #479beb;
+}
+.null {
+    color: #ef154d;
+}

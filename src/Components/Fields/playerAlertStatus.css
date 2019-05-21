@@ -1,0 +1,16 @@
+.infoContainer > span {
+    font-size: 14px;
+    font-family: Verdana;
+}
+.inProgress {
+    color : #929292
+}
+.wonTheCross {
+    color: #479beb;
+}
+.wonTheZero {
+    color: #ff2d69;
+}
+.nobodyWon {
+    color: #212121;
+}

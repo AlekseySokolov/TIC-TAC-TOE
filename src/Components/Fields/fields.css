@@ -1,0 +1,95 @@
+.fieldsContainer {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+.field {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e5e5;
+    flex-basis: 110px;
+    margin: 1px;
+    cursor: pointer;
+}
+.field:hover {
+    background-color: #cdcdcd;
+    transition: 0.5s;
+}
+.field_cross {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #479beb;
+    flex-basis: 110px;
+    margin: 1px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.field_cross:hover {
+    background-color: #467bcb;
+}
+.field_zero {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff2d69;
+    flex-basis: 110px;
+    margin: 1px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.field_zero:hover {
+    background-color: #ef154d;
+}
+.cross {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-family: Verdana;
+    font-size: 65px;
+    color: #efefef;
+}
+.zero {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    font-family: Verdana;
+    font-size: 65px;
+    color: #efefef;
+}
+.infoContainer {
+    height: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.btnReset {
+    width: 150px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    border: 1px solid #6d6d6d;
+    background-color: transparent;
+    color: #6d6d6d;
+    transition: 0.2s;
+}
+.btnReset:hover {
+    border: none;
+    background-color: #8b8b8b;
+    color: #f0f0f0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    transition: 0.2s;
+}
+.btnReset:active{
+    background-color: #676767;
+
+}
